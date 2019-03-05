@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Error_Message__c</fullName>
+    <defaultValue>&quot;現在の状態ではこの操作を行えません。取り消し/却下してから操作して下さい。&quot; &amp; BR() &amp;
+&quot;This operation can not be performed in the current state. Please cancel / reject it before operation.&quot;</defaultValue>
+    <externalId>false</externalId>
+    <label>Error Message</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

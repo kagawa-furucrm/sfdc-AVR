@@ -1,0 +1,18 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "AVR_Attachment_Validation_Rules__c",
+                "referenceId": "AVR_Attachment_Validation_Rules__cRef1"
+            },
+            "IsActive__c": true,
+            "Memo__c": "When the phase of Opportunity is Closed Won, disable attachment change.",
+            "SObject__c": "Opportunity",
+            "SOQL_WHERE_Clause__c": "StageName = 'Closed Won'",
+            "Excluded_Profile__c": "N/A",
+            "Excluded_Public_Group__c": "N/A",
+            "Excluded_User__c": "N/A",
+            "Error_Message__c": "現在の状態ではこの操作を行えません。取り消し/却下してから操作して下さい。\r\nThis operation can not be performed in the current state. Please cancel / reject it before operation."
+        }
+    ]
+}
